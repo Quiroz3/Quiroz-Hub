@@ -1857,7 +1857,7 @@ Tabes:Label("Generate Code")
 Tabes1:Label("Elbolis hub")
 
 Tabes:Line()
-Tabes:Note("Send code to Discord")
+Tabes:Note("Send code to Quiroz")
 
 Tabes:Button("Get Code", function()
 print(game:GetService("RbxAnalyticsService"):GetClientId())
@@ -1867,25 +1867,21 @@ Tabes:Button("Copy Code", function()
 setclipboard(game:GetService("RbxAnalyticsService"):GetClientId())
 end)
 
-Tabes:Button("Copy Discord Link", function()
-setclipboard("https://discord.gg/uwhPfc4TcV")
-end)
-
 Tabes1:Line()
 Tabes1:Note("Hub all My script")
 
 Tabes1:Button("Pop it Trading", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/esbanuwu/Security-script/main/PopItTrading1.Lua"))() 
+loadstring(game:HttpGet(""))() 
 end)
 
 Tabes1:Button("Pets Trading", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/esbanuwu/Security-script/main/Pet%20Trading%20Verify.Lua"))() 
+loadstring(game:HttpGet(""))() 
 end)
 
 Tabes1:Button("Cars Trading", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/esbanuwu/Security-script/main/Cars%20Trading%20Verify.Lua"))() 
+loadstring(game:HttpGet(""))() 
 end)
 
 Tabes1:Button("Liker Pop it Trading", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/esbanuwu/Security-script/main/Toy%20Liker%20Verify.Lua"))() 
+loadstring(game:HttpGet(""))() 
 end)
